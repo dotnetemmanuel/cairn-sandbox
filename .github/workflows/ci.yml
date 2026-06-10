@@ -1,0 +1,17 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trivial check
+        run: |
+          echo "Running sandbox CI check…"
+          test -f src/greeting.py
+          echo "ok"
