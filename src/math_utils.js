@@ -2,8 +2,8 @@
 //
 // Kept deliberately long so diffs can span several hunks.
 
-export function add(a, b) {
-  return a + b;
+export function add(...values) {
+  return values.reduce((acc, v) => acc + v, 0);
 }
 
 export function subtract(a, b) {
@@ -15,9 +15,15 @@ export function multiply(a, b) {
 }
 
 export function clamp(value, min, max) {
+  if (min > max) throw new RangeError("min must not exceed max");
   if (value < min) return min;
   if (value > max) return max;
   return value;
+}
+
+export function round(value, places = 0) {
+  const f = 10 ** places;
+  return Math.round(value * f) / f;
 }
 
 export function lerp(a, b, t) {
@@ -33,5 +39,6 @@ export function mean(values) {
   return sum(values) / values.length;
 }
 
-export const PI = 3.14159;
+export const PI = Math.PI;
 export const TAU = PI * 2;
+export const E = Math.E;
