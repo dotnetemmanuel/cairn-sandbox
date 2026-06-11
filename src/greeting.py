@@ -10,21 +10,21 @@ DEFAULT_NAME = "stranger"
 
 
 def greet(name: str) -> str:
-    """Return a greeting for the given name."""
+    """Return a friendly greeting for ``name`` (falls back to a default)."""
     if not name:
         name = DEFAULT_NAME
     return f"Hello, {name}!"
 
 
 def farewell(name: str) -> str:
-    """Return a farewell for the given name."""
+    """Return a parting message for ``name`` (falls back to a default)."""
     if not name:
         name = DEFAULT_NAME
     return f"Goodbye, {name}."
 
 
 def time_of_day(hour: int) -> str:
-    """Map an hour (0-23) to a coarse part of the day."""
+    """Map an hour (0-23) to a coarse part of the day: night/morning/etc."""
     if hour < 6:
         return "night"
     if hour < 12:
@@ -35,13 +35,13 @@ def time_of_day(hour: int) -> str:
 
 
 def time_greeting(name: str, hour: int) -> str:
-    """Greet someone with a time-appropriate salutation."""
+    """Greet ``name`` with a salutation appropriate to ``hour``."""
     part = time_of_day(hour)
     return f"Good {part}, {name or DEFAULT_NAME}!"
 
 
 def shout(message: str) -> str:
-    """Return the message in an emphatic form."""
+    """Return ``message`` in an emphatic, shouted form."""
     return message.upper() + "!!!"
 
 
