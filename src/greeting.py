@@ -50,3 +50,5 @@ if __name__ == "__main__":
     print(greet("world"))
     print(time_greeting("world", now.hour))
     print(farewell("world"))
+
+# amend test: extra line
