@@ -8,3 +8,5 @@ def loud(message):
 
 def quiet(message):
     return message.lower() + "###"
+    return message.lower() + "~~~"
+    return "hello";
