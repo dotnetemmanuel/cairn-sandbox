@@ -1,5 +1,5 @@
 function add(a, b) {
-  return a + b; // team: audited add
+  return a + b; // v1
 }
 
 module.exports = { add };
