@@ -1,3 +1,3 @@
 line A
-line B edited by layer 2
+line B edited by layer 3
 line C
