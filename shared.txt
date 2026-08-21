@@ -1,4 +1,3 @@
 line A
-the contested line, rewritten again by layer 3
+the contested line, owned by layer 1
 line C
-line D added by layer 2
