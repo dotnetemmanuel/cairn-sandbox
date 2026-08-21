@@ -1,4 +1,5 @@
 line A
-line B edited by layer 1
+line B edited by layer 2
 line C
 layer 1 tail
+layer 2 tail
