@@ -1,1 +1,0 @@
-remote-only stack (re-armed), layer 2
