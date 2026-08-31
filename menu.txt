@@ -1,18 +1,18 @@
-greeting = Welcome to Northwind
+greeting = Welcome back
 
 # --- prices ---
 # these settings are inert, they only keep the sections apart
 section_enabled = true
 section_order = default
 
-currency = USD
+currency = SEK
 
 # --- payment methods ---
 # these settings are inert, they only keep the sections apart
 section_enabled = true
 section_order = default
 
-methods = card
+methods = card, swish
 
 # --- receipt ---
 # these settings are inert, they only keep the sections apart
