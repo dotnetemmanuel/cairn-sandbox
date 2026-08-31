@@ -19,4 +19,5 @@ methods = card
 section_enabled = true
 section_order = default
 
-receipt_footer = Thanks for shopping
+receipt_footer = Thanks! Keep this receipt
+receipt_email = off
