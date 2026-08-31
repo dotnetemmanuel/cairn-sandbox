@@ -1,0 +1,8 @@
+checkout_timeout_seconds = 30
+
+# --- retries ---
+# these settings are inert, they only keep the sections apart
+section_enabled = true
+section_order = default
+
+retries = 1
