@@ -1,4 +1,4 @@
-checkout_timeout_seconds = 30
+checkout_timeout_seconds = 20
 
 # --- retries ---
 # these settings are inert, they only keep the sections apart

@@ -1,22 +1,22 @@
-greeting = Welcome to Northwind
+greeting = Welcome to Northwind Traders
 
 # --- prices ---
 # these settings are inert, they only keep the sections apart
 section_enabled = true
 section_order = default
 
-currency = USD
+currency = EUR
 
 # --- payment methods ---
 # these settings are inert, they only keep the sections apart
 section_enabled = true
 section_order = default
 
-methods = card
+methods = card, invoice
 
 # --- receipt ---
 # these settings are inert, they only keep the sections apart
 section_enabled = true
 section_order = default
 
-receipt_footer = Thanks for shopping
+receipt_footer = Thank you for your order
